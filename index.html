@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fun-Translation</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+      :root {
+        --primary-color: #f43f5e;
+      }
+      body {
+        font-family: "Montserrat", "sans-serif";
+        margin: 0px;
+      }
+    
+      textarea {
+        height: 20vh;
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding: 1rem;
+      }
+      button {
+        font-weight: 1rem;
+        padding: 0.5rem 1rem;
+        margin: 1rem auto;
+        display: block;
+      }
+     header{
+      background-color: var(--primary-color);
+      text-align: center;
+      padding: 0.5rem 1rem;
+      margin-bottom: 2rem;
+     }
+     footer{
+      background-color: var(--primary-color);
+      text-align: center;
+      padding: 0.5rem 0.5rem;
+      margin-top: 2rem;
+      position: fixed;
+      width: 100%;
+      bottom: 0px;
+     }
+    </style>
+  
+  </head>
+
+  <body>
+    <header>
+      <h1>Fun Translation</h1>
+    </header>
+    <textarea name="input" id="input" cols="30" rows="10" placeholder="write somting to convert to minion language"></textarea>
+    <button id="btn-translate">Translate</button>
+
+    <h3 style="text-align: center;">Output will show hear 👇</h3>
+    <textarea name="output" id="output" cols="30" rows="10"></textarea>
+    
+    <footer>
+      <p>hello it sims you enjoy minion translation </p>
+    </footer>
+    <script src="/app.js"></script>
+  </body>
+</html>
